@@ -1,0 +1,15 @@
+current directory: /home/ubuntu/environment/tasklist2/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+/home/ubuntu/.rvm/rubies/ruby-3.1.4/bin/ruby -I /home/ubuntu/.rvm/rubies/ruby-3.1.4/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /home/ubuntu/environment/tasklist2/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231207-6125-jnkmal sitelibdir\=./.gem.20231207-6125-jnkmal clean
+
+current directory: /home/ubuntu/environment/tasklist2/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231207-6125-jnkmal sitelibdir\=./.gem.20231207-6125-jnkmal
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/ubuntu/environment/tasklist2/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231207-6125-jnkmal sitelibdir\=./.gem.20231207-6125-jnkmal install
+/usr/bin/install -m 0755 cparse.so ./.gem.20231207-6125-jnkmal/racc
