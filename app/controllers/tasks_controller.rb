@@ -1,7 +1,8 @@
 class TasksController < ApplicationController
   
   def index
-    @tasks = Task.all
+    #@tasks = Task.all
+    @pagy, @tasks = pagy(Task.all.order(id: :asc), items: 3)
   end
   
   def show
