@@ -19,9 +19,18 @@
       <% end %>
     </tbody>
   </table>
+  
   <div>
     <%== pagy_bootstrap_nav(@pagy) %>
   </div>
+  
+  <!--<div class="bg-secondary p-3 p-sm-5 my-4 rounded">-->
+    <div class="text-center text-white">
+      <!--<h1>Welcome to the Microposts</h1>-->
+      <%= link_to 'Sign up now!', signup_path, class: 'btn btn-lg btn-primary' %>
+    </div>
+  <!--</div>-->
+  
 <% end %>
 
 <%= link_to '新規メッセージの投稿', new_task_path, class: "btn btn-primary" %>
