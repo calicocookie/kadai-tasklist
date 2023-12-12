@@ -1,8 +1,10 @@
 class TasksController < ApplicationController
   
   def index
-    #@tasks = Task.all
-    @pagy, @tasks = pagy(Task.all.order(id: :asc), items: 3)
+    if logged_in?
+      @task = current_user.tasks.build
+      @pagy, @tasks = pagy(Task.all.order(id: :asc), items: 3)
+    end
   end
   
   def show
